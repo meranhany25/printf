@@ -26,7 +26,7 @@ int _printf(const char *format, ...)
 				count += print_string(args);
 				break;
 			case '%':
-				putchar('%');
+				_putchar('%');
 				count++;
 				break;
 			case 'd':
@@ -39,7 +39,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-			putchar(*format);
+			_putchar(*format);
 			count++;
 		}
 		format++;
