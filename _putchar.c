@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _putchar - writes the character
- * @ch: char
- * Return: On success 1 | On failed -1
+ * _putchar - Writes a single character.
+ * @ch: The character to write.
+ * Return: On success, returns 1. On failure, returns -1.
  */
 int _putchar(char ch)
 {
