@@ -15,6 +15,6 @@ int integer_print(va_list list, int *count)
 		numbers = -numbers;
 	}
 	*count += unsigned_print(numbers, 10, "0123456789");
-	printf("Enter");
+
 	return (*count);
 }
