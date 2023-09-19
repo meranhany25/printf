@@ -6,8 +6,8 @@
  */
 int _printf(const char *format, ...)
 {
-	va_list list;
 	int count = 0;
+	va_list list;
 	const char *pointer = format;
 
 	if (format == NULL)
