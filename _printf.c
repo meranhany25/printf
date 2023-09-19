@@ -10,10 +10,8 @@ int _printf(const char *format, ...)
 	va_list list;
 	const char *pointer = format;
 
-	if (format == NULL)
-	{
+	if (!format)
 		return (-1);
-	}
 	va_start(list, format);
 	while (*pointer != '\0')
 	{
